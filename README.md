@@ -128,25 +128,26 @@ If the text contained with the `div` does not go all the way to the bottom
 of the image, whitespace will be added to fill that space. Perhaps not the
 most elegant solution, but it works well enough.
 
+## Making the site live
+
+To make the site live, you first have to create a repository in GitHub's
+`vislies` group named with the current year. Push the previously created
+repository there.
+
+Next, go to the GitHub project's setting page and find the `GutHub Pages`
+options near the bottom. Change the `Source` to the branch with the pages
+to post (probably `master`). Once you do that, you should see a green box
+that says your site is published at `https://www.vislies.org/20XX` (with
+the appropriate year substituted).
+
+When the site is ready to become the default landing, update the
+redirection in the [vislies.github.io] repository to point to the new site.
+
+[vislies.github.io]: https://github.com/vislies/vislies.github.io
+
 ## Link to gallery
 
 When you first create the site, you won't have a gallery (because the even
 has not happened yet). When you are ready to add the gallery, edit the
 `_config.yaml` file and change the `gallery-ready` item from `false` to
 `true`.
-
-## Moving to archive
-
-At some point, the page will have to move to an archive to make room for
-the next year. You can do this by creating a new GitHub pages repository of
-the appropriate name and pushing there.
-
-**Also**, you need to change the `baseurl` entry in `_config.yaml` to the
-subdirectory where these pages will be posted.
-
-When moving to a sub-archive, you need to make sure that you push as the
-gh-pages branch.
-
-You probably also want to delete the `CNAME` file in the repository. It
-probably won't do anything, but `CNAME` really should only be in the base
-repository, and GitHub will give you a warning about it.
