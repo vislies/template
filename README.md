@@ -61,7 +61,7 @@ bundle exec jekyll serve
 
 Get started by updating the `_config.yaml` configuration file. The biggest
 need is to update the configuration to the current year. Typically, the
-items needed to be updated are `title`, `email`, and `this-year`.
+items needed to be updated are `title`, `email`, `baseurl`, and `this-year`.
 
 ## Creating content
 
