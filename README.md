@@ -136,7 +136,7 @@ repository there.
 
 Next, go to the GitHub project's setting page and find the `GutHub Pages`
 options near the bottom. Change the `Source` to the branch with the pages
-to post (probably `master`). Once you do that, you should see a green box
+to post (probably `main`). Once you do that, you should see a green box
 that says your site is published at `https://www.vislies.org/20XX` (with
 the appropriate year substituted).
 
