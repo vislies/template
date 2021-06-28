@@ -147,7 +147,7 @@ redirection in the [vislies.github.io] repository to point to the new site.
 
 ## Link to gallery
 
-When you first create the site, you won't have a gallery (because the even
+When you first create the site, you won't have a gallery (because the event
 has not happened yet). When you are ready to add the gallery, edit the
 `_config.yaml` file and change the `gallery-ready` item from `false` to
 `true`.
