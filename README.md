@@ -95,6 +95,18 @@ class that gives the position of the image.
 </a>
 ```
 
+As you laying down images, it is a good idea to differentiate images that
+lie from good examples. You can ensure that it is clear which images lie by
+adding a "lie" image to them, this can be done by adding an `<img
+src="lie.png" class="lie" />` tag.
+
+``` markdown
+<a href="foo.png" class="image-right">
+<img src="lie.png" class="lie" />
+![A foo](foo-thumbnail.png)
+</a>
+```
+
 The CSS for the VisLies pages have the following classes to help position
 images:
 
