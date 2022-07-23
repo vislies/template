@@ -80,5 +80,5 @@ your name and a note that you want to present. That's it.
 Questions? Contact us at
 <a href="mailto:vislies2018@vislies.org">vislies2018@vislies.org</a>.
 
-| ![Bernice Rogowitz](images/Bernice.jpg) | ![Kenneth Moreland](images/Ken.jpg) |
-| <a href="https://sites.google.com/site/bernicerogowitz/">Bernice Rogowitz</a> | <a href="http://www.kennethmoreland.com/">Kenneth Moreland</a> |
+| ![Kenneth Moreland](images/Ken.jpg) | ![Bernice Rogowitz](images/Bernice.jpg) |
+| <a href="http://www.kennethmoreland.com/">Kenneth Moreland</a> | <a href="https://sites.google.com/site/bernicerogowitz/">Bernice Rogowitz</a> |
