@@ -41,14 +41,14 @@ sudo gem install jekyll
 
 Typically, the first thing you need to do when you want to build a specific
 repository is to make sure that you have all the packages and plugins
-necessary. To update jupyter on local machine, be in this repositories root
+necessary. To update Jekyll on local machine, be in this repositories root
 directory and run:
 
 ``` sh
 bundle install
 ```
 
-You probably need to run this with root perissions (i.e. `sudo`).
+You may need to run this with root perissions (i.e. `sudo`).
 
 Once you have done this, you should be able to run the Jekyll server, which
 will build the html pages and start a simple web server.
@@ -59,9 +59,21 @@ bundle exec jekyll serve
 
 ## Updating the configuration
 
-Get started by updating the `_config.yaml` configuration file. The biggest
-need is to update the configuration to the current year. Typically, the
-items needed to be updated are `title`, `email`, `baseurl`, and `this-year`.
+It is a good idea to occasionally update the "gems" used by Jekyll. When
+starting a new configuration, consider running
+
+``` sh
+bundle update
+```
+
+This will upgrade the underlying Jekyll software. GitHub will likely
+complain about security problems with older gems. After running the update,
+you should then run `bundle install` again.
+
+Get started with the web site by updating the `_config.yaml` configuration
+file. The biggest need is to update the configuration to the current year.
+Typically, the items needed to be updated are `title`, `email`, `baseurl`,
+and `this-year`.
 
 ## Creating content
 
